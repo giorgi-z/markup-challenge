@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.logo {
+    height: 41px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+}
+
+/* Main navi */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #ff7600;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #ff7600;
+}
+
+.virtual-helthcare-main-div{
+    display: flex;
+}
+
+.virtual-helthcare-img {
+    width: 693px;
+    height: 598px;
+    margin-top: 177px;
+    float: right;
+}
+
+.virtual-helthcare-div{
+    width: 445px;
+    height: 338px;
+    margin-top: 283px;
+    margin-left: 0px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* Services section */
+/* ---------------------------------------------------------------------------------------- */
+
+.services-heading {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.services-paragraph {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.services-main-container {
+    margin-top: 100px;
+}
+
+.services-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 36px;
+}
+
+.service-div {
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 88px 106px;
+}
+
+.service-text {
+    width: 266px;
+    height: 84px;
+    font-family: sans-serif;
+}
+
+.services-img {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #ff7600;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /* secret to align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
