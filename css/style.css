@@ -75,27 +75,35 @@ nav {
   border-bottom: 2px solid blue;
 }
 
-.virtual-helthcare-main-div {
+.virtual-helthcare-img {
+  float: right;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.virtual-helthcare-img {
-  width: 693px;
-  height: 598px;
-  margin-top: 177px;
-  float: right;
+.virtual-helthcare-main-div {
+  width: 100%;
 }
 
 .virtual-helthcare-div {
-  width: 445px;
-  height: 338px;
-  margin-top: 283px;
-  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ---------------------------------------------------------------------------------------- */
 /* Services section */
 /* ---------------------------------------------------------------------------------------- */
+section {
+  width: 100%;
+}
+
+.test {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
 
 .services-heading {
   font-size: 180%;
